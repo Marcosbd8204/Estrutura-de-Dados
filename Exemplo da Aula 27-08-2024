@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#define TAM 10
+typedef struct stack{
+    int dados[TAM];
+    int topo
+}stack;
+void inicialize (stack* s){
+     s->topo = -1;
+} 
+int isEmpyty(stack s){
+    if(s.topo == -1){
+    return 1;
+    }
+    else{
+        return 0;
+    }
+}
+int isFull(stack s){
+    if(s.topo == TAM-1){
+    return 1;
+    }else{
+        return 0;
+    }
+}
+void push(stack* s, int valor){
+    s->topo = +1;
+    s->dados[s->topo]=valor;
+}
+int pop(stack* s){
+    int retorna = s->dados[s->topo];
+    s->dados[s->topo]=0;
+    s->topo = s->topo -1; 
+}
