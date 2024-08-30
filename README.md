@@ -1,0 +1,1 @@
+Esta area é dedicada a todos os códigos que serão criados no decorrer desta materia no intuito de registrar todo o meu prograçoe em ralação a estruturação dos dados em relação a criação de novos programas e a melhorias dos ja existentes.
